@@ -58,6 +58,6 @@
       "\ttype: '$5:$6';",
       "}"
 		],
-		"description": "Make communication action creators"
+		"description": "Action creator"
 	}
 }
