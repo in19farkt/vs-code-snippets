@@ -44,5 +44,20 @@
       "export type Action = $5 | $5Success | $5Fail;"
 		],
 		"description": "Make communication action creators"
+	},
+	"Action creator": {
+		"prefix": "ac",
+		"body": [
+      "export function ${1:a}${3:ctionCreator}(): NS.${4:I${2:A}$3} {",
+      "\treturn {",
+      "\t\ttype: '${5:PREFIX}:${6:ACTION_NAME}',",
+      "\t};",
+      "}",
+      "",
+      "export interface $4 {",
+      "\ttype: '$5:$6';",
+      "}"
+		],
+		"description": "Make communication action creators"
 	}
 }
