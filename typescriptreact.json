@@ -79,5 +79,33 @@
       ""
     ],
     "description": "React connected container"
+  },
+  "React component": {
+    "prefix": "rc",
+    "body": [
+      "import * as React from 'react';",
+      "import * as block from 'bem-cn';",
+      "import { bind } from 'decko';",
+      "",
+      "import './${1:$TM_FILENAME_BASE}.styl';",
+      "",
+      "interface IProps {",
+      "\t",
+      "}",
+      "",
+      "const b = block('${2:block-name}');",
+      "",
+      "class $1 extends React.PureComponent<IProps, {}> {",
+      "\tpublic render() {",
+      "\t\treturn (",
+      "\t\t\t<div></div>",
+      "\t\t);",
+      "\t}",
+      "}",
+      "",
+      "export default $1;",
+      ""
+    ],
+    "description": "React component"
   }
 }
