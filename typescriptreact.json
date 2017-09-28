@@ -21,7 +21,7 @@
   "Class name": {
     "prefix": "cn",
     "body": [
-      "className={b('$0')}"
+      "className={b('$0')()}"
     ],
     "description": "React Class name"
   },
